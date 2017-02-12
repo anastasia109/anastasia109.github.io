@@ -55,9 +55,13 @@ body{
 .main{
 	width: 960px;
 }
-.main .main_img{
+.main_img{
+	display: inline-block;
+	width:738px;
+	height: 311px;
 	position: relative;
 	top:-38px;
+	background: url(../img/main_img1.jpg) no-repeat;
 }
 .quad {
 	background: #337e99;
@@ -65,8 +69,8 @@ body{
 	height: 60px;
 	color: #fff;
 	position: absolute;
-	top:204px;
-	left: 170px;
+	top:20px;
+	left: 10px;
 }
 .quad div {
 	font-family: "PtSansRegular";

@@ -1,0 +1,419 @@
+											/*GENERAL BEGIN*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 1280px;
+}
+
+
+												/*home*/
+
+.home {
+	background: url("../imgs/Livello-1.png");
+	text-align: center;
+	color: #fff;
+	font-family: GothamRoundedBold;
+}
+
+.home nav ul {
+	margin: 31px 0 0 0;
+	display: inline-flex;
+	flex-direction: row;
+	align-items: flex-end;
+	width: 760px;
+}
+
+.home nav ul li {
+	display: inline-block;
+	margin: 0 62px 0 0;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.home nav ul li a {
+	color: #fff;
+}
+
+.home nav ul li:first-child {
+	margin-left: 10px;
+}
+
+.home nav ul li:nth-child(3) {
+	margin-left: 40px;
+	margin-right: 96px;
+	position: relative;
+	top: 10px;
+}
+
+.home nav ul li:last-child {
+	margin-left: 13px;
+}
+
+.home .main_home {
+	margin: 237px 0 213px 340px;
+	width: 600px;
+}
+
+.home .main_home h1 {
+	text-transform: uppercase;
+	font-size: 35px;
+	letter-spacing: 6.5px;
+	margin-left: 10px;
+}
+
+.home .main_home p {
+	font-family: GothamRoundedMedium;
+	letter-spacing: 2.4px;
+	margin: 4px 0 26px 0;
+}
+
+.home .main_home .start,
+.photoapp .main_information .start,
+.design .main_information .start {
+	background: #16a085;
+	color: #fff;
+	border-radius: 3px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.home .main_home .start {
+	padding: 15px 30px;
+	letter-spacing: 1.5px;
+	font-size: 13px;
+}
+
+.social {
+	padding-bottom: 20px;
+	font-size: 25px;
+	color: #fff;
+}
+.social ul li {
+	display: inline-block;
+}
+.social li:nth-child(2) {
+	margin: 0 10px;
+}
+
+
+											/*photoapp*/
+
+.photoapp {
+	background-color: #f5f6f7;
+}
+
+.photoapp .main_information {
+	float: left;
+	width: 431px;
+	margin: 106px 0 8px 128px;
+}
+
+.main_head {
+	text-transform: uppercase;
+	color: #16a085;
+	font-size: 17px;
+	letter-spacing: 3.63px;
+	font-family: GothamRoundedBold;
+}
+
+
+.photoapp .main_information p {
+	margin: 37px 0 40px 0;
+	letter-spacing: 1.86px;
+	line-height: 24px;
+	font-size: 12px;
+	font-family: GothamRoundedBook;
+}
+span{
+	font-family: GothamRoundedBold;
+}
+
+.photoapp .main_information .start {
+	padding: 18px 44px 17px 44px;
+	font-family: GothamRoundedBold;
+	font-size: 13px;
+	letter-spacing: 1.3px;
+}
+
+.photoapp .img {
+	background: url(../imgs/iPhone.png) 505px 63px no-repeat;
+	height: 491px;
+}
+
+
+											/*design*/
+
+.design .main_information {
+	float: right;
+	width: 440px;
+	margin: 141px 74px 0px 0px;
+}
+
+.design .main_information .main_text {
+	margin: 33px 0px 37px 3px;
+	letter-spacing: 1.9px;
+	line-height: 22px;
+	font-size: 12px;
+	font-family: GothamRoundedBook;
+}
+
+.design .main_information .start {
+	padding: 18px 48px 17px 44px;
+	margin-bottom: 41px;
+	font-family: GothamRoundedBold;
+	font-size: 13px;
+	letter-spacing: 1.3px;
+}
+
+.design .date {
+	display: block;
+	font-size: 11px;
+	letter-spacing: 2.6px;
+	font-family: GothamRoundedBold;
+}
+
+.design .main_information .fa {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.design .main_information .fa-angle-left {
+	margin-right: 17px
+}
+
+
+.design .img {
+	background: url(../imgs/Flat-iPhone-5C-Mock-Up.png) 30px 142px no-repeat;
+	height: 559px;
+}
+
+
+											/*our_community*/
+
+.our_community {
+	background: #f5f6f7;
+	padding: 88px 0px 114px 115px;
+}
+
+.our_community .angle {
+	text-align: right;
+	margin: 0 129px 3px 0;
+}
+
+.our_community .fa {
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.our_community .fa-angle-left {
+	margin-right: 13px;
+}
+
+.our_community ul li {
+	display: inline;
+}
+
+.our_community ul li:first-child {
+	float: left;
+	text-align: center;
+	width: 205px;
+	margin:45px 66px 0 0;
+}
+
+.our_community .community_inf h1 {
+	margin: 20px 0 18px 0;
+	letter-spacing: 2.2px;
+	font-family: GothamRoundedBold;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.our_community .community_inf p {
+	font-family: GothamRoundedMedium;
+	font-size: 10px;
+	width: 142px;
+	margin-left: 32px;
+	letter-spacing: 1.43px;
+	line-height: 12px;
+}
+
+.our_community ul li:nth-child(2) {
+	margin-right: 20px;
+}
+
+
+													/*subscribe*/
+
+.subscribe {
+	background: url(../imgs/Livello-3.png) 0 0 no-repeat;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	padding: 343px 0px 325px 0px;
+	font-family: GothamRoundedBold;
+}
+
+.subscribe h1 {
+	letter-spacing: 3.6px;
+}
+
+.subscribe .email {
+	width: 345px;
+	display: flex;
+	margin: 27px 0 0 465px;
+}
+
+.subscribe input[type="email"] {
+	text-transform: uppercase;
+	padding: 16px 0px 17px 20px;
+	width: 100%;
+	margin: auto;
+	font-family: GothamRoundedBold;
+	font-size: 17px;
+	letter-spacing: 2px;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.subscribe button[type="button"] {
+	padding: 20px 22px 15px 20px;
+	background: #16a085;
+	color: #fff;
+	border: none;
+	font-size: 20px;
+	display: inline-block;
+	border-radius: 0px 3px 5px 0px;
+}
+
+
+												/*download */
+
+.download {
+	padding: 85px 190px 116px 190px;
+	background: #f5f6f7;
+	text-transform: uppercase;
+}
+
+.download h1 {
+	text-align: center;
+	font-size: 18px;
+	margin-left: 5px;
+	letter-spacing: 4.6px;
+	font-family: GothamRoundedBold;
+}
+
+.download p {
+	text-align: center;
+	margin: 6px 0px 40px 27px;
+	font-family: GothamRoundedMedium;
+	font-size: 11px;
+	letter-spacing: 2.55px;
+	line-height: 22px;
+	width: 848px;
+}
+
+.download .apple,
+.download .android {
+	display: inline-flex;
+	font-family: GothamRoundedBold;
+}
+
+.download .apple,
+.download .android {
+	height: 57px;
+}
+
+.download .apple {
+	margin-left: 140px;
+	margin-right: 23px;
+}
+
+.download .apple a {
+	display: inline-block;
+	background: #1abc9c;
+	padding: 20px 75px 0px 24px;
+	color: #fff;
+	letter-spacing: 2.26px;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.download .android a {
+	display: inline-block;
+	background: #1abc9c;
+	padding: 20px 65px 0px 30px;
+	color: #fff;
+	letter-spacing: 4px;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.download button[type="button"] {
+	font-size: 25px;
+	padding: 16px 18px 18px 19px;
+	background: #16a085;
+	color: #fff;
+	border: none;
+	display: inline-block;
+	border-radius: 0px 3px 3px 0px;
+}
+
+.download .android button[type="button"] {
+	font-size: 32px;
+	padding: 10px 14px 18px 17px;
+}
+
+
+												/*footer*/
+
+footer {
+	margin-top: 37px;
+	font-family: GothamRoundedBold;
+}
+
+footer .inf {
+	font-size: 13px;
+	display: inline-block;
+	margin-left: 120px;
+	letter-spacing: 3.2px;
+}
+
+footer .inf p {
+	margin: 14px 5px 5px 5px;
+	letter-spacing: 2.75px;
+}
+
+footer .inf ul li {
+	background: url(../imgs/phototime.png) 100% 50% no-repeat;
+	text-transform: uppercase;
+	padding: 5px 7px 5px 5px;
+	display: inline-block;
+}
+
+.inf ul li:last-child {
+	background: none;
+}
+
+footer .img {
+	float: right;
+	margin-right: 126px;
+}
+
+nav:after,
+.photoapp:after,
+.design:after,
+footer:after {
+	content: "";
+	display: table;
+	clear: both;
+}

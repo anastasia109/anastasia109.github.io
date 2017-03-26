@@ -1,0 +1,20 @@
+@font-face{
+	font-family: "GothamRoundedBold";
+	src: url(fonts/bold/gothamrounded-bold-webfont.ttf);
+}
+@font-face{
+	font-family: "GothamRoundedLight";
+	src: url("fonts/light/gothamrounded-light-webfont.ttf");
+}
+@font-face{
+	font-family: "GothamRoundedBook";
+	src: url("fonts/book/gothamrounded-book-webfont.ttf");
+}
+@font-face{
+	font-family: "GothamRoundedMedium";
+	src: url("fonts/medium/gothamrounded-medium-webfont.ttf");
+}
+@font-face{
+	font-family: "GothamRoundedMediumitalic";
+	src: url("fonts/book/gothamrounded-mediumitalic-webfont.ttf");
+}

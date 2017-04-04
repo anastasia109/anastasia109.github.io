@@ -1,0 +1,105 @@
+@media only screen and (max-width : 777px), only screen and (max-device-width: 777px) {
+    #step-1 form {
+        float: none;
+    }
+
+    .error {
+        float: none;
+        position: static;
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .arrow {
+        margin-bottom: 40px;
+        width: 300px;
+    }
+
+    .flex-container {
+        display: block;
+    }
+
+    .form-field {
+        width: 97%;
+    }
+
+    .location {
+        width: 100%;
+    }
+
+    .container {
+        margin: auto;
+    }
+
+    #wrapper {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .ui-tabs .ui-tabs-nav {
+        width: 100%;
+    }
+
+    .ui-tabs .ui-tabs-nav li {
+        width: 25%;
+        margin: 0;
+    }
+
+    .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+        width: 55%;
+        text-align: center;
+    }
+
+    #step-3 input[type="text"] {
+        width: 50%;
+    }
+
+    .social {
+        width: 100%;
+    }
+
+    .pets {
+        display: block;
+        width: 100%;
+        position: static;
+        left: 0px;
+    }
+
+    label > input + img {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: inline;
+    }
+
+    #result {
+        width: 300px;
+        position: static;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 5px;
+    }
+
+    #result_information, #cat_result {
+        float: none;
+        height: auto;
+        display: block;
+    }
+
+    #cat_result {
+        margin-top: 12px;
+    }
+
+    #result img {
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    #again_button {
+        width: 300px;
+    }
+}

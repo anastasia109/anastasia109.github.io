@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Анкета</title>
+
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="container">
+
+            <div id="wrapper">
+
+                <ul class="nav">
+                    <li class="nav_element"><a href="#step-1"><span>1</span></a></li>
+                    <li class="nav_element"><a href="#step-2"><span>2</span></a></li>
+                    <li class="nav_element"><a href="#step-3"><span>3</span></a></li>
+                    <li class="nav_element"><a href="#step-4"><span>4</span></a></li>
+                </ul>
+
+                <div id="step-1">
+                    <p class="page_header">1. Введите имя и e-mail</p>
+                    <form action="/">
+                        <input type="text" id="name_input" placeholder="Имя" required class="form-field"><br>
+                        <input type="email" id="email_input" placeholder="E-mail" required class="form-field">
+                    </form>
+                    <div class="error">&mdash; в адресе должен быть символ "@"</div>
+                </div>
+
+                <div id="step-2">
+                    <p class="page_header">2. Выберите страну и город</p>
+                    <select id="countries" class="location">
+                        <option disabled>Страна</option>
+                    </select>
+                    <select id="cities" class="location">
+                        <option disabled>Город</option>
+                    </select>
+                </div>
+
+                <div id="step-3">
+                    <p class="page_header">3. Отметьте социальные сети</p>
+                    <form action="/" class="social">
+                        <input type="checkbox" name="1" id="checkbox1">
+                        <label for="checkbox1">Facebook</label>
+                        <input type="text" placeholder="Ваша страница в Facebook" id="Facebook_input" class="social_input">
+                    </form>
+                    <form action="/" class="social">
+                        <input type="checkbox" name="2" id="checkbox2" >
+                        <label for="checkbox2">Вконтакте</label>
+                        <input type="text" placeholder="Ваша страница в Вконтакте" id="Vk_input" class="social_input">
+                    </form>
+                    <form action="/" class="social">
+                        <input type="checkbox" name="3" id="checkbox3">
+                        <label for="checkbox3">Twitter</label>
+                        <input type="text" placeholder="Ваша страница в Twitter" id="Twitter_input" class="social_input">
+                    </form>
+                    <form action="/" class="social">
+                        <input type="checkbox" name="4" id="checkbox4">
+                        <label for="checkbox4">Одноклассники</label>
+                        <input type="text" placeholder="Ваша страница в Одноклассниках" id="ok_input" class="social_input">
+                    </form>
+                </div>
+
+                <div id="step-4">
+                    <p class="page_header">4. Выберите любимого котика</p>
+                    <div class="pets">
+                        <label>
+                            <input type="radio" name="pet" value="cat1">
+                            <img src="img/cat1.jpg" id="cat1_img" alt="">
+                        </label>
+                        <label>
+                            <input type="radio" name="pet" value="cat2">
+                            <img src="img/cat2.jpg" id="cat2_img" alt="">
+                        </label>
+                        <label>
+                            <input type="radio" name="pet" value="cat3">
+                            <img src="img/cat3.jpg" id="cat3_img" alt="">
+                        </label>
+                        <label>
+                            <input type="radio" name="pet" value="dog4">
+                            <img src="img/dog4.jpg" alt="">
+                        </label>
+                        <div id= "choice_pet">
+                            <div id="none_error">Вы ничего не выбрали.</div>
+                            <div id="dog_error">Вы выбрали собачку. А надо котика.</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- <div id="wrapper"> -->
+
+            <ul class="arrow" id="main_button">
+                <li><a href="#" id="prev">&lt;&nbsp;Предыдущий</a></li>
+                <li><a href="#" id="next">Следующий&nbsp;&gt;</a></li>
+            </ul>
+
+            <div id="result">
+                <div id="result_information">
+                    <div id="account_result">
+                        <div id="name_result"></div>
+                        <div id="email_result"></div>
+                    </div>
+                    <div id="location_result"></div>
+                    <div id="social_network_result">
+                        <div id="facebook_result">
+                            <span class="social_network">Facebook:</span>
+                            <span id="facebook_result_val"></span>
+                        </div>
+                        <div id="vk_result">
+                            <span class="social_network">Вконтакте:</span>
+                            <span id="vk_result_val"></span>
+                        </div>
+                        <div id="twitter_result">
+                            <span class="social_network">Twitter:</span>
+                            <span id="twitter_result_val"></span>
+                        </div>
+                        <div id="ok_result">
+                            <span class="social_network">Одноклассники:</span>
+                            <span id="ok_result_val"></span>
+                        </div>
+                    </div>
+                </div>
+                <div id="cat_result"></div>
+            </div>
+
+            <ul class="arrow" id="again_button">
+                <li>
+                <a href="#" id="again">Пройти заново</a>
+                </li>
+            </ul>
+
+        </div> <!-- <div class="container"> -->
+    </div> <!-- <div class="flex-container"> -->
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+</body>
+
+</html>

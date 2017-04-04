@@ -1,0 +1,59 @@
+@media only screen and (max-width: 750px),
+only screen and (max-device-width: 750px) {
+	.header {
+		height: 50px;
+		overflow: hidden;
+	}
+	.header .menu_item,
+	.header .first .logo_big {
+		display: none;
+	}
+	.container #sidebar,
+	.main-content #sidebar-toggle {
+		display: block;
+	}
+	.header .first .logo_small {
+		margin-left: 60px;
+		border-left: 1px solid #fff;
+	}
+	.header .first .logo_small {
+		display: flex;
+		width: 70px;
+		text-align: center;
+	}
+	.header .first .logo_small a {
+		font-size: 15px;
+		line-height: 1;
+	}
+	.header .menu {
+		height: 50px;
+		padding: 0;
+	}
+	.header a {
+		padding: 0 10px;
+	}
+	.header .help a {
+		height: 50px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.main-content {
+		top: -61px;
+	}
+	.main {
+		display: inline-block;
+	}
+	.main .block {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.main .block1 {
+		height: 200px;
+	}
+	.main .block2 {
+		height: 300px;
+	}
+	.main .block3 {
+		height: 100px;
+	}
+}
